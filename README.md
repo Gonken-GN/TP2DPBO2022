@@ -7,3 +7,9 @@
 ![ScreenShots 2](https://github.com/Gonken-GN/TP2DPBO2022/blob/main/Screenshoots/bidang%20divisi.png)
 - ### Divisi
 ![ScreenShots 1](https://github.com/Gonken-GN/TP2DPBO2022/blob/main/Screenshoots/divisi.png)
+- ### Insert
+![ScreenShots 1](https://github.com/Gonken-GN/TP2DPBO2022/blob/main/Screenshoots/Insert.gif)
+- ### Update
+![ScreenShots 1](https://github.com/Gonken-GN/TP2DPBO2022/blob/main/Screenshoots/update.gif)
+- ### Delete Divisi
+![ScreenShots 1](https://github.com/Gonken-GN/TP2DPBO2022/blob/main/Screenshoots/delete-divisi.gif)
