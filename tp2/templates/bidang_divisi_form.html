@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Skin 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.php">Ormawa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="pengurus.php?id_submit=1">Tambah Pengurus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="divisi.php">Divisi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="bidang_divisi.php">Bidang Divisi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container" style=" height: 50%;
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  background-color: white;
+  border-radius: 5px 0;">
+  <form action="" method="post" enctype="multipart/form-data">
+      
+    <h1 style="text-align: center; margin: 10px; font-size: 35px;">Data Bidang Divisi</h1>
+    <input type="hidden" name="key" value="">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Jabatan</label>
+        <input type="text" class="form-control" name="jabatan" placeholder="Hokage" value="DATA_Jabatan"required>
+    </div>
+  <div class="form-group">
+      <label for="exampleInputEmail1">ID Divisi</label>
+      <select class="form-control" id="id_divisi" name="id_divisi">
+        DATA_Divisi
+      </select>
+  </div>
+    <button type="Submit" class="btn btn-primary" name="submit" id="submit"style="margin-top: 10px;">Submit</button>
+    <a href="bidang_divisi.php"><button type="button" class="btn btn-danger" name="cancel" style="margin-top: 10px;">Cancel</button></a>
+</form>
+    
+    </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
